@@ -1,12 +1,14 @@
 import './App.css';
-import SignIn from './signin/SignIn';
-import SignUp from './signup/SignUp';
+import React, { Component } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Home from './components/home/Home';
+import RoutesComp from './components/home/routes/RoutesComp';
 
 function App() {
   return (
     <div className="App">
-      <SignIn/>
-      <SignUp/>
+      <Home/>
+      <RoutesComp/>
     </div>
   );
 }
